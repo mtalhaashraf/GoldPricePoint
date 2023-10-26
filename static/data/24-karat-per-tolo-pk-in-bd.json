@@ -1,0 +1,40 @@
+{
+	"table_name": "",
+	"assets": "gold",
+	"gold_type": "24 Karat",
+	"silva_type": null,
+	"Karat": 24,
+	"seo_text": "<p class='p-0'>Gold is used in ornaments because of its shine and historic importance. But 100% pure gold cannot be used in ornaments. Other metals like copper, zinc or silver are  added to gold to make it suitable for jewelry use. 22 karat gold is 91.66% pure gold and 8.34% impurity is added in it. </p>",
+	"header": [
+		{
+			"html": "UAE Standard Time.",
+			"icon": ""
+		},
+		{
+			"html": "<span> Gold Type. </span>",
+			"icon": ""
+		},
+		{
+			"html": "<span> Dubai UAE Gold Rate <br /> Including 5% Vat <br /> AED </span> <br /> <img src='https://flagsapi.com/AE/flat/64.png'  style='width:40px' class='country-flag' alt='' />",
+			"icon": ""
+		},
+		{
+			"html": "<span>PAkistan <br /> Gold Rate <br />(RS)</span> <br /> <img src='https://flagsapi.com/PK/flat/64.png' style='width:40px'  class='country-flag' alt='' />",
+			"icon": ""
+		},
+		{
+			"html": "<span>India <br /> Gold Rate <br />(₹)</span> <br /><img src='https://flagsapi.com/IN/flat/64.png' style='width:40px'  class='country-flag' alt='' />",
+			"icon": ""
+		},
+		{
+			"html": "<span>Bangladesh <br /> Gold Rate <br />(৳)</span> <br /> <img src='https://flagsapi.com/BD/flat/64.png' style='width:40px'  class='country-flag' alt='' />",
+			"icon": ""
+		}
+	],
+	"body": [
+		["10:00 a.m", "24 Karat/Tola", "", "", "", ""],
+		["2:00 a.m", "24 Karat/Tola", "", "", "", ""],
+		["6:00 a.m", "24 Karat/Tola", "", "", "", ""],
+		["6:00 a.m", "24 Karat/Tola", "", "", "", ""]
+	]
+}

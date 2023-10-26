@@ -1,0 +1,165 @@
+{
+  "created_at": "ISO",
+  "country_id": "dubai",
+  "country_name": "Dubai",
+  "region_id": "dubai",
+  "timezone": "Asia/Dubai",
+  "currency": {
+    "name": "Dinar",
+    "symbol": "د.إ"
+  },
+  "exchanges": [
+    {
+      "currency": {
+        "name": "Taka",
+        "symbol": "৳"
+      },
+      "country_id": "bangladesh",
+      "time": "ISO",
+      "rate": "77" // (taka) rate from taka to dinar
+    },
+    {
+      "currency": {
+        "name": "Rupee",
+        "symbol": "₹"
+      },
+      "country_id": "pakistan",
+      "time": "ISO",
+      "rate": "77" // (taka) rate from taka to dinar
+    },
+    {
+      "currency": {
+        "name": "Rupee",
+        "symbol": "₹"
+      },
+      "country_id": "india",
+      "time": "ISO",
+      "rate": "77" // (taka) rate from taka to dinar
+    }
+  ],
+  // tola rate in dubai currency
+  "gold_rates_24_karat": [
+    //8, 10, 2, 6
+    {
+      "time": "ISO",
+      "rate": "--" // tola (dinar) gold rate in dinar in dubai
+    },
+    {
+      "time": "ISO",
+      "rate": "77" // tola (dinar) gold rate in dinar in dubai
+    },
+    {
+      "time": "ISO",
+      "rate": "77" // tola (dinar) gold rate in dinar in dubai
+    },
+    {
+      "time": "ISO",
+      "rate": "77" // tola (dinar) gold rate in dinar in dubai
+    },
+    {
+      "time": "ISO",
+      "rate": "--" // tola (dinar) gold rate in dinar in dubai
+    }
+  ],
+  "gold_rates_22_karat": [
+    //8, 10, 2, 6
+    {
+      "time": "ISO",
+      "rate": "--" // tola (dinar) gold rate in dinar in dubai
+    },
+    {
+      "time": "ISO",
+      "rate": "77" // tola (dinar) gold rate in dinar in dubai
+    },
+    {
+      "time": "ISO",
+      "rate": "77" // tola (dinar) gold rate in dinar in dubai
+    },
+    {
+      "time": "ISO",
+      "rate": "77" // tola (dinar) gold rate in dinar in dubai
+    },
+    {
+      "time": "ISO",
+      "rate": "--" // tola (dinar) gold rate in dinar in dubai
+    }
+  ],
+  "gold_rates_21_karat": [
+    //8, 10, 2, 6
+    {
+      "time": "ISO",
+      "rate": "--" // tola (dinar) gold rate in dinar in dubai
+    },
+    {
+      "time": "ISO",
+      "rate": "77" // tola (dinar) gold rate in dinar in dubai
+    },
+    {
+      "time": "ISO",
+      "rate": "77" // tola (dinar) gold rate in dinar in dubai
+    },
+    {
+      "time": "ISO",
+      "rate": "77" // tola (dinar) gold rate in dinar in dubai
+    },
+    {
+      "time": "ISO",
+      "rate": "--" // tola (dinar) gold rate in dinar in dubai
+    }
+  ],
+  "gold_rates_18_karat": [
+    //8, 10, 2, 6
+    {
+      "time": "ISO",
+      "rate": "--" // tola (dinar) gold rate in dinar in dubai
+    },
+    {
+      "time": "ISO",
+      "rate": "77" // tola (dinar) gold rate in dinar in dubai
+    },
+    {
+      "time": "ISO",
+      "rate": "77" // tola (dinar) gold rate in dinar in dubai
+    },
+    {
+      "time": "ISO",
+      "rate": "77" // tola (dinar) gold rate in dinar in dubai
+    },
+    {
+      "time": "ISO",
+      "rate": "--" // tola (dinar) gold rate in dinar in dubai
+    }
+  ],
+  // dubai currency
+  "silver": [
+    {
+      "time": "ISO",
+      "rate": "--",
+      "unit": "10_gram"
+    },
+    {
+      "time": "ISO",
+      "rate": "77",
+      "unit": "ounce"
+    },
+    {
+      "time": "ISO",
+      "rate": "77",
+      "unit": "kilogram"
+    },
+    {
+      "time": "ISO",
+      "rate": "77",
+      "unit": "tola"
+    }
+  ]
+}
+// gold rate(24k tola dubai) => kilogram, gram, ounce
+// gold rate(24k tola dubai) => bangladesh, pakistan, india
+// gold rate(24k tola dubai) => 22k karat tola, 21karat tola, 18karat tola
+// Tola => 4 tables
+// Gram => 4 tables
+// Ounce => 1 table
+// Kilogram => 1 table
+// Silver => 1 table
+//

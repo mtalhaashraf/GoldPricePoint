@@ -1,0 +1,70 @@
+[
+	{
+		"country": "United Arab Emirates",
+		"short_name": "UAE",
+		"flag": "",
+		"currency": {
+			"name": "Dirham",
+			"code": "AED",
+			"symbol": "د.إ"
+		},
+		"regions": [
+			{
+				"region_id": "dubai",
+				"region_name": "Dubai",
+				"country_sn": "UAE"
+			}
+		]
+	},
+	{
+		"country": "Saudi Arabia",
+		"short_name": "KSA",
+		"flag": "",
+		"currency": {
+			"name": "Riyal",
+			"code": "SAR",
+			"symbol": "﷼"
+		},
+		"regions": [
+			{
+				"region_id": "Saudi Arabia",
+				"region_name": "saudi_arabia",
+				"country_sn": "SAR"
+			}
+		]
+	},
+	{
+		"country": "Kuwait",
+		"short_name": "KW",
+		"flag": "",
+		"currency": {
+			"name": "Dinar",
+			"code": "KD",
+			"symbol": "د.ك"
+		},
+		"regions": [
+			{
+				"region_id": "kuwait",
+				"region_name": "Kuwait",
+				"country_sn": "KW"
+			}
+		]
+	},
+	{
+		"country": "Qatar",
+		"short_name": "KW",
+		"flag": "",
+		"currency": {
+			"name": "Riyal",
+			"code": "QAR",
+			"symbol": "﷼"
+		},
+		"regions": [
+			{
+				"region_id": "qatar",
+				"region_name": "qatar",
+				"country_sn": "KW"
+			}
+		]
+	}
+]

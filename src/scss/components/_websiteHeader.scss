@@ -1,0 +1,77 @@
+@use '../utils/' as *;
+
+.website-header {
+	width: 100%;
+}
+
+.header-wrapper {
+	position: relative;
+	z-index: 1;
+}
+
+.header-banner {
+	width: 100%;
+	user-select: none;
+	& > img {
+		width: 100%;
+		min-height: 300px;
+		object-fit: cover;
+	}
+}
+
+.header-date-picker {
+	position: absolute;
+	top: 43%;
+	left: 12%;
+
+	@media (max-width: 768px) {
+		top: 43%;
+		left: 10%;
+	}
+
+	@media (max-width: 512px) {
+		top: 50%;
+		left: 10%;
+	}
+
+	@media (max-width: 352px) {
+		top: 40%;
+		left: 4%;
+	}
+}
+
+.date-picker__wrapper {
+	background: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	// width: 250px;
+	gap: 1rem;
+	border: 2px solid $warning;
+	padding: 0.5rem;
+	border-radius: 0.8rem;
+	font-family: $font-dm-sans;
+	box-shadow: 0px 5px 0px $warning;
+	position: relative;
+	cursor: pointer;
+}
+
+.date-picker__date {
+	cursor: pointer;
+	p {
+		font-size: 1.1rem;
+		line-height: 1.1em;
+		text-align: center;
+	}
+
+	#history-date-picker {
+		position: absolute;
+		width: 100%;
+		left: 0px;
+		top: 0px;
+		height: 100%;
+		opacity: 0;
+		cursor: pointer;
+		z-index: -1;
+	}
+}

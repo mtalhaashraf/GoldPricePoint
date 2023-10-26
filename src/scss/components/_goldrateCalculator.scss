@@ -1,0 +1,28 @@
+@use '../utils/' as *;
+
+.gold-rate-calculator {
+	--field-width: 300px;
+	background: transparentize($color: $warning, $amount: 0.95);
+	padding: 1rem;
+
+	:global {
+		.dropdown {
+			width: var(--field-width);
+			button.btn {
+				width: var(--field-width);
+			}
+		}
+
+		.result-field.form-control {
+			width: var(--field-width);
+			background: transparent;
+			font-size: 1.5rem;
+			padding: 0.7rem 1rem;
+			margin-right: 4.2rem;
+
+			&::placeholder {
+				color: $warning;
+			}
+		}
+	}
+}

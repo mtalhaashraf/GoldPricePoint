@@ -1,0 +1,28 @@
+@use './utils/' as *;
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.width-of-navbar {
+	max-width: clamp(900px, 86%, 1920px);
+	margin: auto;
+}
+
+.font-roboto-con {
+	font-family: $font-roboto-con;
+}
+
+.font-roboto {
+	font-family: 'Roboto', sans-serif;
+}
+
+.font-dm-sans {
+	font-family: $font-dm-sans;
+}
+
+p.responsive {
+	font-size: 1rem;
+	line-height: 1.15em;
+
+	@include media-breakpoint-down(sm) {
+		font-size: 0.9rem;
+	}
+}

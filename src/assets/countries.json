@@ -1,0 +1,220 @@
+[
+	{
+		"id": "pakistan",
+		"name": "Pakistan",
+		"currency": {
+			"name": "Rupee",
+			"code": "PKR",
+			"symbol": "₨"
+		},
+		"imgCode": "PK",
+		"timezone": "Asia/Karachi",
+		"regions": [
+			{
+				"id": "karachi",
+				"name": "Karachi"
+			},
+			{
+				"id": "islamabad",
+				"name": "Islamabad"
+			},
+			{
+				"id": "lahore",
+				"name": "Lahore"
+			},
+			{
+				"id": "pehsawar",
+				"name": "Pehsawar"
+			},
+			{
+				"id": "multan",
+				"name": "Multan"
+			},
+			{
+				"id": "quetta",
+				"name": "Quetta"
+			},
+			{
+				"id": "faisalabad",
+				"name": "Faisalabad"
+			},
+			{
+				"id": "ary",
+				"name": "ARY",
+				"active":false
+			}
+		],
+		"vat": 0,
+		"layout": "B"
+	},
+	{
+		"id": "india",
+		"name": "India",
+		"currency": {
+			"name": "Rupee",
+			"code": "INR",
+			"symbol": "₹"
+		},
+		"imgCode": "IN",
+		"timezone": "Asia/Kolkata",
+		"vat": 0,
+		"layout": "B"
+	},
+	{
+		"id": "bangladesh",
+		"name": "Bangladesh",
+		"currency": {
+			"name": "Taka",
+			"code": "BDT",
+			"symbol": "৳"
+		},
+		"imgCode": "BD",
+		"timezone": "Asia/Dhaka",
+		"vat": 0,
+		"layout": "",
+		"active": false
+	},
+	{
+		"id": "united_arab_emirates",
+		"name": "United Arab Emirates",
+		"currency": {
+			"name": "Dirham",
+			"code": "AED",
+			"symbol": "د.إ"
+		},
+		"imgCode": "AD",
+		"timezone": "Asia/Dubai",
+		"vat": 0,
+		"layout": "A"
+	},
+	{
+		"id": "saudia_arabia",
+		"name": "Saudia Arabia",
+		"currency": {
+			"name": "Riyal",
+			"code": "SAR",
+			"symbol": "﷼"
+		},
+		"imgCode": "SA",
+		"timezone": "Asia/Riyadh",
+		"vat": 0.15,
+		"layout": "A"
+	},
+	{
+		"id": "kuwait",
+		"name": "Kuwait",
+		"currency": {
+			"name": "Dinar",
+			"code": "KD",
+			"symbol": "د.ك"
+		},
+		"imgCode": "KW",
+		"timezone": "Asia/Kuwait",
+		"vat": 0.05,
+		"layout": "A"
+	},
+	{
+		"id": "qatar",
+		"name": "Qatar",
+		"currency": {
+			"name": "Riyal",
+			"code": "QAR",
+			"symbol": "﷼"
+		},
+		"imgCode": "QA",
+		"timezone": "Asia/Qatar",
+		"vat": 0,
+		"layout": "A"
+	},
+	{
+		"id": "bahrain",
+		"name": "Bahrain",
+		"currency": {
+			"name": "Dinar",
+			"code": "BD",
+			"symbol": "د.ب"
+		},
+		"imgCode": "BH",
+		"timezone": "Asia/Bahrain",
+		"vat": 0.1,
+		"layout": "A"
+	},
+	{
+		"id": "oman",
+		"name": "Oman",
+		"currency": {
+			"name": "Riyal",
+			"code": "OMR",
+			"symbol": "﷼"
+		},
+		"imgCode": "OM",
+		"timezone": "Asia/Muscat",
+		"vat": 0.05,
+		"layout": "A"
+	},
+	{
+		"id": "united_states",
+		"name": "United States",
+		"currency": {
+			"name": "Dollar",
+			"code": "USD",
+			"symbol": "$"
+		},
+		"imgCode": "US",
+		"timezone": "America/New_York",
+		"vat": 0,
+		"layout": "C"
+	},
+	{
+		"id": "australia",
+		"name": "Australia",
+		"currency": {
+			"name": "Dollar",
+			"code": "AUD",
+			"symbol": "$"
+		},
+		"imgCode": "AU",
+		"timezone": "Australia/Sydney",
+		"vat": 0,
+		"layout": "C"
+	},
+	{
+		"id": "canada",
+		"name": "Canada",
+		"currency": {
+			"name": "Dollar",
+			"code": "CAD",
+			"symbol": "$"
+		},
+		"imgCode": "CA",
+		"timezone": "America/St_Johns",
+		"vat": 0,
+		"layout": "C"
+	},
+	{
+		"id": "germany",
+		"name": "Germany",
+		"currency": {
+			"name": "Euro",
+			"code": "EUR",
+			"symbol": "€"
+		},
+		"imgCode": "DE",
+		"timezone": "Europe/Berlin",
+		"vat": 0,
+		"layout": "C"
+	},
+	{
+		"id": "china",
+		"name": "China",
+		"currency": {
+			"name": "Yuan",
+			"code": "CNY",
+			"symbol": "¥"
+		},
+		"imgCode": "CN",
+		"timezone": "Asia/Shanghai",
+		"vat": 0,
+		"layout": "C"
+	}
+]
